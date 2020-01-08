@@ -7,6 +7,7 @@
 //
 
 #import "UIButton+PWResponseRange.h"
+#import <objc/runtime.h>
 
 static const char *kResponseRangeScale = "responseRangeScale";
 static const char *kResponseEdgeInset  = "responseEdgeInset";
