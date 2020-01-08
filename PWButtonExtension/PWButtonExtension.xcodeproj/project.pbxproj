@@ -15,6 +15,10 @@
 		0CF8B3C023C62A840057BF1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF8B3BF23C62A840057BF1F /* main.m */; };
 		0CF8B3CA23C62A840057BF1F /* PWButtonExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF8B3C923C62A840057BF1F /* PWButtonExtensionTests.m */; };
 		0CF8B3D523C62A840057BF1F /* PWButtonExtensionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF8B3D423C62A840057BF1F /* PWButtonExtensionUITests.m */; };
+		0CF8B3EB23C62CDC0057BF1F /* UIButton+PWImagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF8B3E323C62CDB0057BF1F /* UIButton+PWImagePosition.m */; };
+		0CF8B3EC23C62CDC0057BF1F /* UIButton+PWResponseRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF8B3E423C62CDB0057BF1F /* UIButton+PWResponseRange.m */; };
+		0CF8B3ED23C62CDC0057BF1F /* UIButton+PWCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF8B3E523C62CDB0057BF1F /* UIButton+PWCountDown.m */; };
+		0CF8B3EE23C62CDC0057BF1F /* UIButton+PWAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF8B3EA23C62CDC0057BF1F /* UIButton+PWAction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		0CF8B3D023C62A840057BF1F /* PWButtonExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PWButtonExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF8B3D423C62A840057BF1F /* PWButtonExtensionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PWButtonExtensionUITests.m; sourceTree = "<group>"; };
 		0CF8B3D623C62A840057BF1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CF8B3E323C62CDB0057BF1F /* UIButton+PWImagePosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PWImagePosition.m"; sourceTree = "<group>"; };
+		0CF8B3E423C62CDB0057BF1F /* UIButton+PWResponseRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PWResponseRange.m"; sourceTree = "<group>"; };
+		0CF8B3E523C62CDB0057BF1F /* UIButton+PWCountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PWCountDown.m"; sourceTree = "<group>"; };
+		0CF8B3E623C62CDB0057BF1F /* UIButton+PWAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PWAction.h"; sourceTree = "<group>"; };
+		0CF8B3E723C62CDB0057BF1F /* UIButton+PWResponseRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PWResponseRange.h"; sourceTree = "<group>"; };
+		0CF8B3E823C62CDC0057BF1F /* UIButton+PWCountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PWCountDown.h"; sourceTree = "<group>"; };
+		0CF8B3E923C62CDC0057BF1F /* UIButton+PWImagePosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PWImagePosition.h"; sourceTree = "<group>"; };
+		0CF8B3EA23C62CDC0057BF1F /* UIButton+PWAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PWAction.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +148,14 @@
 		0CF8B3E223C62AD40057BF1F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0CF8B3E623C62CDB0057BF1F /* UIButton+PWAction.h */,
+				0CF8B3EA23C62CDC0057BF1F /* UIButton+PWAction.m */,
+				0CF8B3E823C62CDC0057BF1F /* UIButton+PWCountDown.h */,
+				0CF8B3E523C62CDB0057BF1F /* UIButton+PWCountDown.m */,
+				0CF8B3E923C62CDC0057BF1F /* UIButton+PWImagePosition.h */,
+				0CF8B3E323C62CDB0057BF1F /* UIButton+PWImagePosition.m */,
+				0CF8B3E723C62CDB0057BF1F /* UIButton+PWResponseRange.h */,
+				0CF8B3E423C62CDB0057BF1F /* UIButton+PWResponseRange.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -270,8 +290,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CF8B3ED23C62CDC0057BF1F /* UIButton+PWCountDown.m in Sources */,
 				0CF8B3B523C62A830057BF1F /* ViewController.m in Sources */,
+				0CF8B3EB23C62CDC0057BF1F /* UIButton+PWImagePosition.m in Sources */,
+				0CF8B3EC23C62CDC0057BF1F /* UIButton+PWResponseRange.m in Sources */,
 				0CF8B3C023C62A840057BF1F /* main.m in Sources */,
+				0CF8B3EE23C62CDC0057BF1F /* UIButton+PWAction.m in Sources */,
 				0CF8B3B223C62A830057BF1F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
