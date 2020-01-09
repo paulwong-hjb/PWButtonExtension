@@ -39,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C46320B23C70FA000CF0009 /* PWButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PWButton.h; sourceTree = "<group>"; };
 		0CF8B3AD23C62A830057BF1F /* PWButtonExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PWButtonExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF8B3B023C62A830057BF1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0CF8B3B123C62A830057BF1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -148,6 +149,7 @@
 		0CF8B3E223C62AD40057BF1F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0C46320B23C70FA000CF0009 /* PWButton.h */,
 				0CF8B3E623C62CDB0057BF1F /* UIButton+PWAction.h */,
 				0CF8B3EA23C62CDC0057BF1F /* UIButton+PWAction.m */,
 				0CF8B3E823C62CDC0057BF1F /* UIButton+PWCountDown.h */,
